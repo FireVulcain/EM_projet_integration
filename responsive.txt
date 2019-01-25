@@ -1,0 +1,50 @@
+Responsive projet Intégration
+
+- Général
+
+    Pour le header je réduis la taille entre les lien (li) afin de garder le menu sur une seul ligne.
+    Ensuite pour la version mobile je cache le menu de base, et j'affiche a la place une icone, qui, quand
+    on clique dessus, déroule le menu avec les liens les uns au dessus des autres.
+
+    Pour le footer je passe le copyright, le formulaire ainsi que les icones sur une seul ligne. De plus je centre tout ce contenu,
+    ce qui permet une meilleur lisibilité.
+    En version mobile les inputs passent en 100% pour qu'ils soient plus facile d'accès.
+
+    De la même manière que pour les inputs, en version mobile je passe mes boutons en 100% pour qu'ils soient eux aussi plus facile
+    d'accès pour les téléphones.
+
+    Au niveau des textes d'une façon général, je rajoute du padding sur mes sections parentes afin que les éléments ne soient pas collés
+    aux bords de la page. Ceci permet toujours une meilleur lecture du contenu
+
+    Finalement pour les images, je les caches si l'image en question n'apporte pas une/des information(s) importante(s).
+
+
+    Plus spécifiquement, sur la page d'accueil :
+
+        D'une façon général je passe le texte en justifié pour plus de lisibilité
+
+        Pour la section avec plusieurs articles j'augmente la hauteur de mes articles pour aérer l'espacement avec le bouton
+
+        Pour la section About us et Latest news, toujours dans cet objectif de lisibilité, je passe mes deux contenus passent
+        sur une ligne.
+
+    Sur la page Contacts :
+        Pour la section contact us, on repasse le formulaire sur une ligne et la map sur une ligne quand l'espacement entre les
+        deux deviens trop réduit (tablette).
+
+        Pour la section avec la liste de l'équipe, j'enlève le hover sur les images à partir de la version tablette et mobile
+        pour des raisons d'accessibilité. La solution étant d'afficher directement le noms des personnes directement en dessous des
+        photos.
+        A partir d'une certaine taille, les images étant deux par deux sur une ligne, je centre le tout pour rendre la section plus
+        lisible.
+
+    Sur la page Service :
+        Pour la section featured services, je passe sur deux colonnes puis sur une colonne mes articles en fonction de mes breakpoint,
+        afin de garder un espacement qui facilite la lecture.
+
+        De même pour la section services / how we work / business plan, je garde mes sections services et how we work
+        sur une ligne, à 50% chacune et je passe la dernière colonne (buisness plan) sur une ligne aussi à 50% pour arriver au même
+        niveau que ma section services.
+
+        Pour ma dernière section, our methods, je fais une fois de plus pareil, je garde une ligne avec 2 éléments et le 3ème éléments
+        passent sur une ligne complète mais de taille 50%.
